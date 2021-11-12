@@ -1,0 +1,24 @@
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    display: block;
+    width: 800px;
+    height: 350px;
+    margin: 8px auto;
+    border-width: 10px;
+    border-style: solid;
+    border-color: coral;
+}
+
+.title {
+    text-align: center;
+}
+
+.pic {
+    background-color: blueviolet;
+    margin: 10px;
+}
