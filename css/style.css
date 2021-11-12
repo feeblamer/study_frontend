@@ -1,0 +1,121 @@
+body {
+    max-width: 1170px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 20px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/*.container {
+    max-width: 1170px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 20px;
+    width: 1280px;
+    margin: 0 auto;
+}
+*/
+
+.header section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border: 1px;
+    line-height: 59px;
+    border-color: rgb(114, 98, 89);
+    background: rgb(114, 98, 89);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    ;
+}
+
+.menu li {
+    display: block;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    border-left: 1px solid white;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-wrapper {
+    height: 100%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    color: black;
+}
+
+.card {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 47%;
+    height: 30%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    /* box-shadow: 0 4px 8px 0 rgb(114, 98, 89);
+    transition: 0.3s; */
+}
+
+.poster {
+    float: left;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px 0 rgb(114, 98, 89);
+}
+
+.text {
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.contacts {
+    padding-top: 20px;
+    text-decoration: none;
+    position: bottom;
+    color: white;
+}
