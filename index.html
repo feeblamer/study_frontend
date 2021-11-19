@@ -3,14 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" contene="width=device-width">
     <!--<link rel="stylesheet" href="css/style_2.css">-->
     <link rel="stylesheet" href="css/style.css">
     <title>Изучаем фронтенд</title>
+
 </head>
+
+<script>
+    const handleChange = (isChecked) => {
+        if (isChecked) {
+            document.body.setAttribute('light', '');
+        } else {
+            document.body.removeAttribute('light')
+        }
+    }
+</script>
+
 <body>
     <div class="container">
 
         <header class="header">
+            <div class="theme">
+                <input type="checkbox" onchange="handleChange(this.checked)"> Light theme
+            </div>
 
             <nav class="header_nav">
                 <div class="header_logo">NaFilm</div>
@@ -30,101 +46,158 @@
         <div class="card-wrapper">
 
             <div class="card">
-                <div class="pic"></div>
-                <div class="text">
-                        <div class="title">
-                                <h2>
-                                 Пес-призрак: Путь самурая/Ghost Dog: The Way of the Samurai
-                                 </h2>
-                        </div>
-                        
-                        <div class="description">
-                                <p>
-                        Он остался преданным до конца...
-                         </p>               
-                       </div>
-                </div>
-             </div>
+                <div class="pic"><img class="poster" src="img\samurai.jpeg"></div>
 
-            <div class="card">
-                <div class="pic"><img class="poster" src="C:\Users\Rena\Documents\work\study_frontend\img\13.jpg" width="200" height="300"></div>
                 <div class="text">
-                    <div class="title">Джеймс Дин</div>
-                    <div class="description">Актер</div>
+                    <div class="title">
+                        <h3>
+                            Пес-призрак: Путь самурая/Ghost Dog: The Way of the Samurai
+                        </h3>
+                    </div>
+
+                    <div class="description">
+                        <p>
+                            Он остался преданным до конца...
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="pic"><img class="poster" src="C:\Users\Rena\Documents\work\study_frontend\img\13.jpg" width="200" height="300"></div>
-                <div class="text">
-                    <div class="title">Джеймс Дин</div>
-                    <div class="description">Актер</div>
-                </div>
-            </div>
 
             <div class="card">
-                <div class="pic"></div>
-                <div class="text">
-                        <div class="title">
-                    <h2>Малыш на драйве/Baby driver</h2>
-                        </div>
-                        <div class="description">
-                    <p>
-                        Про фильм можно сказать: "С ритмом по жизни"
-                    </p>
-                        </div>
-                 </div>
-            </div>
+                <div class="pic"><img class="poster" src="img\samurai.jpeg"></div>
 
-           <div class="card">
-                <div class="pic"><img class="poster" src="C:\Users\Rena\Documents\work\study_frontend\img\13.jpg" width="200" height="300"></div>
                 <div class="text">
-                    <div class="title">Джеймс Дин</div>
-                    <div class="description">Актер</div>
+                    <div class="title">
+                        <h3>
+                            Пес-призрак: Путь самурая/Ghost Dog: The Way of the Samurai
+                        </h3>
+                    </div>
+
+                    <div class="description">
+                        <p>
+                            Он остался преданным до конца...
+                        </p>
+                    </div>
                 </div>
             </div>
 
             <div class="card">
-                <div class="pic"></div>
-                <div class="title">
-                    <h2>Mr.Robot</h2>
-                </div>
-                <div class="description">
-                    <p>
-                        Ни gnome и не kde. Но python да !
-                    </p>
-                </div>
-           </div>
-        <div class="card">
-                <div class="pic"><img class="poster" src="C:\Users\Rena\Documents\work\study_frontend\img\13.jpg" width="200" height="300"></div>
+                <div class="pic"><img class="poster" src="img\samurai.jpeg"></div>
+
                 <div class="text">
-                    <div class="title">Джеймс Дин</div>
-                    <div class="description">Актер</div>
+                    <div class="title">
+                        <h3>
+                            Пес-призрак: Путь самурая/Ghost Dog: The Way of the Samurai
+                        </h3>
+                    </div>
+
+                    <div class="description">
+                        <p>
+                            Он остался преданным до конца...
+                        </p>
+                    </div>
                 </div>
             </div>
 
             <div class="card">
-                <div class="pic"><img class="poster" src="C:\Users\Rena\Documents\work\study_frontend\img\13.jpg" width="200" height="300"></div>
+                <div class="pic"><img class="poster" src="img\samurai.jpeg"></div>
+
                 <div class="text">
-                    <div class="title">Джеймс Дин</div>
-                    <div class="description">Актер</div>
+                    <div class="title">
+                        <h3>
+                            Пес-призрак: Путь самурая/Ghost Dog: The Way of the Samurai
+                        </h3>
+                    </div>
+
+                    <div class="description">
+                        <p>
+                            Он остался преданным до конца...
+                        </p>
+                    </div>
                 </div>
             </div>
 
             <div class="card">
-                <div class="pic"><img class="poster" src="C:\Users\Rena\Documents\work\study_frontend\img\13.jpg" width="200" height="300"></div>
+                <div class="pic"><img class="poster" src="img\samurai.jpeg"></div>
+
                 <div class="text">
-                    <div class="title">Джеймс Дин</div>
-                    <div class="description">Актер</div>
+                    <div class="title">
+                        <h3>
+                            Пес-призрак: Путь самурая/Ghost Dog: The Way of the Samurai
+                        </h3>
+                    </div>
+
+                    <div class="description">
+                        <p>
+                            Он остался преданным до конца...
+                        </p>
+                    </div>
                 </div>
             </div>
+
+            <div class="card">
+                <div class="pic"><img class="poster" src="img\samurai.jpeg"></div>
+
+                <div class="text">
+                    <div class="title">
+                        <h3>
+                            Пес-призрак: Путь самурая/Ghost Dog: The Way of the Samurai
+                        </h3>
+                    </div>
+
+                    <div class="description">
+                        <p>
+                            Он остался преданным до конца...
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+
+                <div class="pic"><img class="poster" src="img\baby.jpg"></div>
+                <div class="text">
+                    <div class="title">
+                        <h3>Малыш на драйве/Baby driver</h3>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Про фильм можно сказать: "С ритмом по жизни"
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="pic"><img class="poster" src="img\aac57a29688377.55ffa78f025a6.jpg"></div>
+                <div class="text">
+                    <div class="title">
+                        <h3>Мистер Робот/Mr.Robot</h3>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Ни gnome и не kde. Но python - да !
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
 
             <nav class="contacts"> Подписывайся в соцсетях
                 <div>
-                    <a href="#"><img src="#" width="30" height="30" alt="YouTube"></a>
-                    <a href="#"><img src="#" width="30" height="30" alt="VKontakte"></a>
-                    <a href="#"><img src="#" width="30" height="30" alt="Instagram"></a>
-                    <a href="#"><img src="#" width="30" height="30" alt="Twitter"></a>
+                    <a href="#"><img src="img\2.png" width="30" height="30" alt="YouTube"></a>
+                    <a href="#"><img src="img\4.png" width="30" height="30" alt="VKontakte"></a>
+                    <a href="#"><img src="img\3.png" width="30" height="30" alt="Instagram"></a>
+                    <a href="#"><img src="img\1.png" width="30" height="30" alt="Twitter"></a>
                 </div>
             </nav>
         </div>
