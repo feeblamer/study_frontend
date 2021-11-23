@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <!-- <link rel="stylesheet" href="css/style_2.css"> -->
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
     <title>Изучаем фронтенд</title>
 
 </head>
@@ -24,12 +25,13 @@
     <div class="container">
 
         <header class="header">
-            <div class="theme">
-                <input type="checkbox" onchange="handleChange(this.checked)"> Light theme
-            </div>
 
-            <nav class="header_nav">
-                <div class="header_logo">NaFilm</div>
+            <nav class="nav">
+                <div class="logo">
+                    <img class="img_logo" src="img/dark_logo.svg" alt="Logo white">
+                </div>
+
+                <button class="menu-button" type="button">Menu</button>
 
                 <ul class="menu">
 
@@ -39,7 +41,6 @@
 
                 </ul>
 
-                <button class="menu-button" type="button">Menu</button>
 
             </nav>
 
@@ -172,14 +173,13 @@
 
 
         <footer>
-            <nav class="contacts"> Подписывайся в соцсетях
-                <div>
-                    <a href="#"><img src="img\2.png" width="30" height="30" alt="YouTube"></a>
-                    <a href="#"><img src="img\4.png" width="30" height="30" alt="VKontakte"></a>
-                    <a href="#"><img src="img\3.png" width="30" height="30" alt="Instagram"></a>
-                    <a href="#"><img src="img\1.png" width="30" height="30" alt="Twitter"></a>
-                </div>
-            </nav>
+            <div class="contacts">
+                <p>Подписывайся в соцсетях</p>
+                <a href="#"><img src="img\2.png" width="30" height="30" alt="YouTube"></a>
+                <a href="#"><img src="img\4.png" width="30" height="30" alt="VKontakte"></a>
+                <a href="#"><img src="img\3.png" width="30" height="30" alt="Instagram"></a>
+                <a href="#"><img src="img\1.png" width="30" height="30" alt="Twitter"></a>
+            </div>
         </footer>
 
     </div>
