@@ -29,12 +29,10 @@ body {
 
 .header {
     display: block;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .nav {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     height: 5rem;
@@ -45,19 +43,10 @@ body {
     display: none;
 }
 
-.header_logo {
-    flex: auto;
-}
-
-.logo {
-    width: 190px;
-}
-
 .menu {
-    position: relative;
     align-self: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -74,10 +63,12 @@ body {
 .menu li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .menu:hover li a {
-    filter: blur(5px);
+    filter: blur(3px);
 }
 
 .menu>li>a:hover {
@@ -85,6 +76,7 @@ body {
     filter: blur(0px);
     background-color: rgb(254, 253, 255);
     color: black;
+    padding: 10px;
 }
 
 .card-wrapper {
@@ -122,6 +114,12 @@ body {
     color: (--var-body-fc);
     margin-left: 5px;
     align-items: left;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pic {
