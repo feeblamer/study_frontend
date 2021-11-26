@@ -1,21 +1,9 @@
-:root {
-    --var-body-bg: black;
-    --var-body-fc: white;
-    --var-header-bg: #81777b;
-}
-
-[light] {
-    --var-body-bg: white;
-    --var-body-fc: black;
-    --var-header-bg: #81777b;
-}
-
 body {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     line-height: 32px;
-    color: var(--var-body-fc);
-    background-color: var(--var-body-bg);
+    color: var(--font-color);
+    background-color: var(--body-bg);
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
@@ -53,8 +41,8 @@ body {
 .menu>li {
     display: block;
     align-self: center;
-    color: --var-body-fc;
-    background-color: black;
+    color: var(--font-color);
+    background-color: var(--menu-bg-color);
     text-align: center;
     padding: 0px 20px;
     transition: .5s;
@@ -62,7 +50,7 @@ body {
 
 .menu li a {
     text-decoration: none;
-    color: white;
+    color: var(--menu-font-color);
     font-size: 20px;
     font-weight: bold;
 }
@@ -74,8 +62,8 @@ body {
 .menu>li>a:hover {
     font-size: 20px;
     filter: blur(0px);
-    background-color: rgb(254, 253, 255);
-    color: black;
+    background-color: var(--menu-bg-color-hover);
+    color: var(--menu-fontcolor-hover);
     padding: 10px;
 }
 
@@ -84,7 +72,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    color: (--var-body-fc);
+    color: (--font-color);
 }
 
 .card {
@@ -94,7 +82,7 @@ body {
     overflow: hidden;
     max-height: 470px;
     margin-bottom: 4vh;
-    border: white;
+    border: var(--border-color);
     border-radius: 5%;
 }
 
@@ -111,13 +99,16 @@ body {
 
 .text {
     display: grid;
-    color: (--var-body-fc);
+    color: var(--font-color);
     margin-left: 5px;
     align-items: left;
 }
 
 .logo {
     display: block;
+    background-image: var(--logo);
+    width: 200px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -139,7 +130,7 @@ body {
 
 .card:hover {
     box-shadow: 5px 5px 5px 0;
-    color: (--var-body-fc);
+    color: var(--font-color);
 }
 
 footer {
@@ -151,6 +142,6 @@ footer {
     padding-top: 20px;
     text-decoration: none;
     position: bottom;
-    color: (--var-body-fc);
+    color: var(--font-color);
     text-decoration: none;
 }

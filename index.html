@@ -6,38 +6,32 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" type="text/css" href="css/dark.css" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" type="text/css" href="css/media.css">
+
     <title>Изучаем фронтенд</title>
 
 </head>
 
-<script>
-    const handleChange = (isChecked) => {
-        if (isChecked) {
-            document.body.setAttribute('light', '');
-        } else {
-            document.body.removeAttribute('light')
-        }
-    }
-</script>
+
 
 <body>
     <div class="container">
 
         <header class="header">
-            <img class="logo" src="img/dark_logo.svg" alt="Logo white">
-
+            <div class="logo" alt='Logo'></div>
             <nav class="nav">
 
                 <button class="menu-button" type="button">Menu</button>
 
-                <ul class="menu">
+                <menu class="menu">
 
-                    <li><a href="#" class="nav-link">Главная</a></liv>
-                        <li><a href="#" class="nav-link">Фильмы</a></li>
-                        <li><a href="#" class="nav-link">Поиск</a></li>
+                    <li><a href="#" class="nav-link">Главная</a></li>
+                    <li><a href="#" class="nav-link">Фильмы</a></li>
+                    <li><a href="#" class="nav-link">Поиск</a></li>
 
-                </ul>
+                </menu>
 
 
             </nav>

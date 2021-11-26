@@ -1,0 +1,10 @@
+:root {
+    --body-bg: white;
+    --logo: url('../img/white_logo.svg');
+    --font-color: black;
+    --menu-bg-color: white;
+    --menu-font-color: rgb(0, 0, 0);
+    --menu-bg-color-hover: rgb(4, 0, 8);
+    --menu-fontcolor-hover: rgb(255, 255, 255);
+    --border-color: rgb(0, 0, 0);
+}
